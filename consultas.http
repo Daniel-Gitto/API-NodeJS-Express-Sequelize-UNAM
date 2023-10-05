@@ -1,0 +1,61 @@
+### Obtencion de todos los productos
+GET http://localhost:1234/productos/
+
+### Obtencion de todos los usuarios
+GET http://localhost:1234/usuarios/
+
+### Obtención de un producto específico
+
+GET http://localhost:1234/productos/10/
+
+### Obtención de un usuario específico
+GET http://localhost:1234/usuarios/5/
+
+
+### Agregado de un producto nuevo, el body lleva el json con el objeto
+POST http://localhost:1234/productos
+Content-Type: application/json
+
+{
+    "id": 13,
+    "nombre": "Pochoclera",
+    "tipo": "Electrodoméstico de cocina",
+    "precio": 95.00
+}
+
+### Agregado de un usuario nuevo, el body lleva el json con el objeto
+POST http://localhost:1234/usuarios/
+Content-Type: application/json
+
+{
+        "id": 12,
+        "dni": "20897840",
+        "nombres": "San",
+        "apellidos": "Pedro",
+        "email": "juan@example.com",
+        "telefono": "+1 243-567-3485"
+      }
+
+
+### Actualización de un producto, el body lleva solo el atributo a modificar
+
+PATCH http://localhost:1234/productos/11
+Content-Type: application/json
+
+{
+    "nombre": "Mixer multiuso ACME "
+}
+
+### Actualización de un usuario, el body lleva solo el atributo a modificar
+PATCH http://localhost:1234/usuarios/2
+Content-Type: application/json
+
+{
+    "nombres": "Armado"
+}
+
+### Borrado de un producto
+DELETE http://localhost:1234/productos/13
+
+### Borrado de un usuario
+DELETE http://localhost:1234/usuarios/13

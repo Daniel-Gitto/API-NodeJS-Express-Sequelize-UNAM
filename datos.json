@@ -1,0 +1,148 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "dni": "65-111-9263",
+        "nombres": "Wiley",
+        "apellidos": "Rainger",
+        "email": "wrainger0@vistaprint.com",
+        "telefono": "614-216-6968"
+      },
+      
+      {
+        "id": 2,
+        "dni": "87-207-2720",
+        "nombres": "Isabel",
+        "apellidos": "Crannis",
+        "email": "icrannis1@goo.ne.jp",
+        "telefono": "733-906-2175"
+      },
+      {
+        "id": 3,
+        "dni": "39-874-6793",
+        "nombres": "Alikee",
+        "apellidos": "Kertess",
+        "email": "akertess2@reverbnation.com",
+        "telefono": "365-645-1688"
+      },
+      {
+        "id": 4,
+        "dni": "13-811-3251",
+        "nombres": "Jillie",
+        "apellidos": "Falkinder",
+        "email": "jfalkinder3@ucsd.edu",
+        "telefono": "864-337-0207"
+      },
+      {
+        "id": 5,
+        "dni": "32-238-3189",
+        "nombres": "Boy",
+        "apellidos": "Vinker",
+        "email": "bvinker4@storify.com",
+        "telefono": "257-226-0773"
+      },
+      {
+        "id": 6,
+        "dni": "86-121-3994",
+        "nombres": "Ernestine",
+        "apellidos": "Grinyov",
+        "email": "egrinyov5@illinois.edu",
+        "telefono": "428-873-3089"
+      },
+      {
+        "id": 7,
+        "dni": "25-843-1812",
+        "nombres": "Killian",
+        "apellidos": "Dimsdale",
+        "email": "kdimsdale6@hp.com",
+        "telefono": "606-562-1958"
+      },
+      {
+        "id": 8,
+        "dni": "31-287-5469",
+        "nombres": "Maddie",
+        "apellidos": "Ogers",
+        "email": "mogers7@de.vu",
+        "telefono": "594-597-8097"
+      },
+      {
+        "id": 9,
+        "dni": "67-665-6351",
+        "nombres": "Gusty",
+        "apellidos": "Waltho",
+        "email": "gwaltho8@bloglovin.com",
+        "telefono": "235-220-8216"
+      },
+      {
+        "id": 10,
+        "dni": "83-732-4498",
+        "nombres": "Mariejeanne",
+        "apellidos": "Chaplyn",
+        "email": "mchaplyn9@bing.com",
+        "telefono": "748-126-3348"
+      }
+    ],
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Lavadora",
+        "tipo": "Electrodoméstico",
+        "precio": 499.99
+      },
+      {
+        "id": 2,
+        "nombre": "Refrigerador",
+        "tipo": "Electrodoméstico",
+        "precio": 699.99
+      },
+      {
+        "id": 3,
+        "nombre": "Horno de microondas",
+        "tipo": "Electrodoméstico",
+        "precio": 129.99
+      },
+      {
+        "id": 4,
+        "nombre": "Licuadora",
+        "tipo": "Electrodoméstico",
+        "precio": 49.99
+      },
+      {
+        "id": 5,
+        "nombre": "Televisor LED",
+        "tipo": "Electrodoméstico",
+        "precio": 799.99
+      },
+      {
+        "id": 6,
+        "nombre": "Cafetera",
+        "tipo": "Electrodoméstico",
+        "precio": 89.99
+      },
+      {
+        "id": 7,
+        "nombre": "Aspiradora",
+        "tipo": "Electrodoméstico",
+        "precio": 149.99
+      },
+      {
+        "id": 8,
+        "nombre": "Batidora",
+        "tipo": "Electrodoméstico",
+        "precio": 59.99
+      },
+      {
+        "id": 9,
+        "nombre": "Lavaplatos",
+        "tipo": "Electrodoméstico",
+        "precio": 399.99
+      },
+      {
+        "id": 10,
+        "nombre": "Secadora de ropa",
+        "tipo": "Electrodoméstico",
+        "precio": 349.99
+      }
+    ]
+  }
+  
