@@ -1,13 +1,13 @@
 ### Obtencion de todos los productos
 GET http://localhost:1234/productos/
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsInVzdWFyaW8iOiJiZW5nZWxtYW5uNyIsIm5pdmVsIjoxLCJleHAiOjE2OTcwNjYwMDg5NTIsImlhdCI6MTY5NzA2NTk0OH0.TDNU_ENLCSRxE3ue7G-BM7gADGWGdp2HAs0m_TXZZSo
 ### Obtencion de todos los usuarios
 GET http://localhost:1234/usuarios/
 
 ### Obtención de un producto específico
 
 GET http://localhost:1234/productos/10/
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsInVzdWFyaW8iOiJiZW5nZWxtYW5uNyIsIm5pdmVsIjoxLCJleHAiOjE2OTcwNjUxMjgyOTMsImlhdCI6MTY5NzA2NTA2OH0.CwFjkkXIZ-P4Qlb9wn1-LUbJqEzIrG_eQyaZ-qVt0TI 
 ### Obtención de un usuario específico
 GET http://localhost:1234/usuarios/5/
 
@@ -15,13 +15,16 @@ GET http://localhost:1234/usuarios/5/
 ### Agregado de un producto nuevo, el body lleva el json con el objeto
 POST http://localhost:1234/productos
 Content-Type: application/json
-
-{
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsInVzdWFyaW8iOiJiZW5nZWxtYW5uNyIsIm5pdmVsIjoxLCJleHAiOjE2OTcwNjM0NDUyNzgsImlhdCI6MTY5NzA2MzM4NX0.P9bUwaqooBL41sVe992WVUC4SU0eVtSIGyNePMRcDPU 
+ 
+ {
     "id": 13,
-    "nombre": "Pochoclera",
+    "nombre": "Juguera",
     "tipo": "Electrodoméstico de cocina",
     "precio": 95.00
 }
+    
+
 
 ### Agregado de un usuario nuevo, el body lleva el json con el objeto
 POST http://localhost:1234/usuarios/
@@ -41,6 +44,7 @@ Content-Type: application/json
 
 PATCH http://localhost:1234/productos/11
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsInVzdWFyaW8iOiJiZW5nZWxtYW5uNyIsIm5pdmVsIjoxLCJleHAiOjE2OTcwNjU4MjM0MDIsImlhdCI6MTY5NzA2NTc2M30.5Iqi4oDK1uvwelKgpOd-01jGW5IQwsJjjYfQFXU9FHg
 
 {
     "nombre": "Mixer multiuso ACME "
@@ -59,3 +63,12 @@ DELETE http://localhost:1234/productos/13
 
 ### Borrado de un usuario
 DELETE http://localhost:1234/usuarios/13
+
+### Request desde el formulario de logueo en el frontend
+POST http://localhost:1234/auth
+Content-Type: application/json
+
+    {
+        "usuario": "bengelmann7",
+        "password": "Engelmann"
+    }
